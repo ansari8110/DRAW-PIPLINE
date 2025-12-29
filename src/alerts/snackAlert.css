@@ -1,0 +1,21 @@
+.snack_alert{
+    position: fixed;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background-color: snackbar.type === success ? #10b981 : #ef4444; */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 1000;
+    font-size: 14px;
+    font-weight: 500;
+    animation: slideUp 0.3s ease-ou;
+}
+.success_style{
+    background-color:  #10b981;
+}
+.error_style{
+    background-color: #ef4444;
+}
